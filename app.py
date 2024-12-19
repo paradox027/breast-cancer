@@ -8,7 +8,7 @@ app = Flask(__name__)
 
 # Load the XGBoost model from JSON
 model = xgb.Booster()
-model.load_model("D:/ML NOTES/brest cancer/model.json")
+model.load_model("model.json")
 
 
 @app.route('/')
